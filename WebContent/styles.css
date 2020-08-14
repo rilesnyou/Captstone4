@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("https://p0.pikist.com/photos/590/641/blue-seamless-pattern-texture-background.jpg");
+	font-family: "Lucida Console", Monaco, monospace;
+}
+h1 {
+	text-align: center;
+	font-size: 60px;
+	background-color: yellow;	
+	height: 70px;
+}
+p{
+	text-align: center;
+	font-size: 30px;
+	height: 70px;
+	background-color: orange;
+}
+table {
+	background-color: pink;
+	font-size: 20px;
+}
+input {
+	font-size: 30px;
+}

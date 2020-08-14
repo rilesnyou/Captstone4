@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+	<div>
+		<h1>Welcome to the market!</h1>
+		<p>click the button of whatever food you would like and it will
+			all be added up.</p>
+	</div>
+	<table align="center">
+	<tr>
+	<th>Name</th>
+	<th>Price</th>
+	</tr>
+	<tr>
+	<td>Brisket</td>
+	<td>12.00</td>
+	<td><input type="button" value="add to cart" onclick="addToCart(' Brisket,', 12)" /></td>
+	</tr>
+		<tr>
+	<td>Chicken</td>
+	<td>7.00</td>
+	<td><input type="button" value="add to cart" onclick="addToCart(' Chicken,', 7)" /></td>
+	</tr>
+		<tr>
+	<td>Hotdogs</td>
+	<td>3.00</td>
+	<td><input type="button" value="add to cart" onclick="addToCart(' Hotdogs,', 3)" /></td>
+	</tr>
+		<tr>
+	<td>Buns</td>
+	<td>2.00</td>
+	<td><input type="button" value="add to cart" onclick="addToCart(' Buns,', 2)" /></td>
+	</tr>
+		<tr>
+	<td>Salad</td>
+	<td>5.00</td>
+	<td><input type="button" value="add to cart" onclick="addToCart(' Salad,', 5)" /></td>
+	</tr>
+		<tr>
+	<td>Macaroni</td>
+	<td>4.00</td>
+	<td><input type="button" value="add to cart" onclick="addToCart(' Macaroni,', 4)" /></td>
+	</tr>
+	</table>
+	<input type="button" value="checkout" onclick="printCart()" />
+	<p id="finalCart"></p>
+	<input type="button" value="checkout" 	
+	onclick="printFoods()" />
+	<p id="foodCart"></p>
+	<script src="script.js"></script>
+
+</body>
+</html>
